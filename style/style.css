@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgb(130, 125, 125);
+}
+.todo__wraper{
+    /* padding: 10px; */
+    margin: 100px auto;
+    width: 600px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 43px -3px 100px 26px rgba(34, 60, 80, 0.28);
+}
+.todo__header {
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(76, 76, 76);
+}
+.inp__btn input{
+    padding: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    color: rgb(76, 76, 76);
+    font-weight: 600;
+}
+.inp__btn button{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    color: rgb(76, 76, 76);
+}
+.inp__btn{
+    margin: 10px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 205, 207);
+    display: flex;
+}
+.error p{
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(200, 12, 12);
+}
+.inp__check{
+    display: flex;
+    gap: 10px;
+}
+li{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(76, 76, 76);
+}
+li:nth-child(even){
+    color:rgb(76, 76, 76) ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:white ;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li svg path{
+    fill: white;
+}
+li:nth-child(even) svg path{
+    fill: rgb(76, 76, 76) ;
+}
+.atachment{
+    display: flex;
+    gap: 10px;
+    margin-right: 15px;
+}
+.edit{
+    cursor: pointer;
+}
+.delet{
+    cursor: pointer;
+}
+
+   
